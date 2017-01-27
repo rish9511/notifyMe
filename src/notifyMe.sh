@@ -115,7 +115,7 @@ postToServer_favTeam() {
 	
 	if [ ! -z "$1" ]; then
 		if [ $linux == 1 ]; then
-			resp=`curl -X POST -d "$1" http://localhost/favTeam`
+			resp=`curl -X POST -d "$1" http://ec2-35-163-34-205.us-west-2.compute.amazonaws.com/favTeam`
 			if [ ! -z "$resp" ];then
 				`notify-send "Upcoming fixture" "$resp"`
 			else
