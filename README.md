@@ -6,7 +6,7 @@ Desktop notification for matches of your favourite football team
 * Do not give space between the name of the team while setting your favourite team
 * WRONG :- teamReal Madrid | RIGHT:- teamRealMadrid
 * WRONG:- teamBayern Munich | RIGHT:- teamBayernMunich
-* No need to mention "FC" while with the name of team
+* No need to mention "FC"  with the name of team
 * WRONG:- teamArsenalFC | RIGHT:- teamArsenal
 
 ### Steps 
