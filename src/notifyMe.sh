@@ -72,10 +72,10 @@ readIniFile() {
 postToServer_favTeam() {
    
     if [ ! -z "$1" ]; then
-        resp=`curl -X POST -d "$1" http://ec2-35-163-34-205.us-west-2.compute.amazonaws.com/favTeam`
-        if [ ! -z "$resp" ];then
+        resp=`curl -X POST -d "$1" http://ec2-52-89-23-95.us-west-2.compute.amazonaws.com/favTeam`
+		if [ ! -z "$resp" ];then
             if [ $linux == 1 ]; then
-                `notify-send "Upcoming fixture" "$resp"`
+                `notify-send "Upcoming fixture" "$resp" "--urgency=critical"`
             fi
             if [ $darwin == 1 ];then
                 `osascript -e "display notification \"$resp\" with title \"Upcoming Fixture\" "`
