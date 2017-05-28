@@ -1,5 +1,14 @@
 # notifyMe
 Desktop notification for matches of your favourite football team
+
+## Supported OS:
+* Linux
+* Mac OSX
+
+## Dependencies
+* For Linux: notify-send
+  * sudo apt-get install libnotify-bin
+
 # How to Install
 ### Instructions
 *IMPORTANT*
